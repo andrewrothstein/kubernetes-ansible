@@ -1,7 +1,7 @@
 # Account name of remote user. Ansible will use this user account to ssh into
 # the managed machines. The user must be able to use sudo without asking
 # for password.
-ansible_ssh_user: root
+ansible_ssh_user: arothste
 
 # Kubernetes internal network for services.
 # Kubernetes services will get fake IP addresses from this range.

@@ -11,8 +11,15 @@ configuration file.
 ## Usage
 
 Record the IP address of which machine you want to be your master
+64 bytes from labccld001 (45.32.103.20): icmp_seq=2 ttl=64 time=0.036 ms
+
 Record the IP address of the machine you want to be your etcd server
+64 bytes from labccld002 (45.32.103.21): icmp_seq=2 ttl=64 time=0.079 ms
+
 Record the IP addresses of the machines you want to be your minions.
+64 bytes from labccld003 (45.32.103.22): icmp_seq=2 ttl=64 time=0.083 ms
+64 bytes from labccld004 (45.32.103.23): icmp_seq=2 ttl=64 time=0.072 ms
+64 bytes from labccld005 (45.32.103.24): icmp_seq=2 ttl=64 time=0.085 ms
 
 Stick the system information into the 'inventory' file.
 
