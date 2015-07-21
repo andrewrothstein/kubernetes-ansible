@@ -1,2 +1,4 @@
 myinventory
 *.swp
+**/*~
+.vagrant
